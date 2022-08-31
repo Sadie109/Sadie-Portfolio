@@ -1,0 +1,48 @@
+.Title {
+  display: flex;
+  top: 20px;
+  left: 100px;
+  font-size: 3em;
+}
+
+.Container {
+  position: absolute;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  width: 60%;
+  height: 60%;
+  /* background-color: blueviolet; */
+}
+
+.ParentContainer {
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+  /* background-color: brown; */
+  height: 100vh;
+  width: 100%;
+}
+
+.Paragraph {
+  font-size: 1.5em;
+  margin-top: 80px;
+}
+
+.Skills {
+  font-size: 1em;
+  margin-top: 70px;
+}
+
+.PhotoOne {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.PhotoTwo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
