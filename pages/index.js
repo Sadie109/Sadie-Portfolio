@@ -15,10 +15,10 @@ export default function Home() {
             learning back-end and design.
           </p>
         </div>
-        <div className={styles.Photo}>
-        <img src="/image.jpg" style={{ width: 400 }} />
-        </div>
       </div>
+      
+        <img className={styles.Photo} src="/image.jpg" style={{ width: 400 }} />
+      
     </div>
   );
 }

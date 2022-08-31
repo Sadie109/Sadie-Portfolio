@@ -16,7 +16,7 @@ const Navbar = () => {
               {" "}
               <img
                 src="/img.jpg"
-                style={{ borderRadius: 100, width: 150, height: 150 }}
+                style={{ borderRadius: 100, width: 100, height: 100 }}
               />
             </a>
           </Link>

@@ -1,24 +1,23 @@
 .Title {
   display: flex;
-  /* justify-content: center; */
   top: 20px;
   left: 100px;
   font-size: 3em;
 }
 
 .Container {
+  position: absolute;
+  top: 150px;
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
-  margin-top: 300px;
   width: 60%;
   height: 60%;
-  
   /* background-color: blueviolet; */
 }
 
 .ParentContainer {
-  align-items: center;
+  margin-top: 150px;
   display: flex;
   justify-content: center;
   /* background-color: brown; */
@@ -26,17 +25,15 @@
   width: 100%;
 }
 
-.Photo {
-  /* background-color: black; */
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  top: 200px;
-  right: 250px;
+.Paragraph {
+  font-size: 1.5em;
+  margin-top: 80px;
 }
 
-.Paragraph {
-  margin-top: 50px;
-  font-size: 1.5em;
+.Photo {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
 }
