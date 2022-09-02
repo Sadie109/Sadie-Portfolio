@@ -1,6 +1,5 @@
 .Title {
   display: flex;
-  /* justify-content: center; */
   top: 20px;
   left: 100px;
   font-size: 3em;
@@ -13,7 +12,7 @@
   margin-top: 300px;
   width: 60%;
   height: 60%;
-  
+
   /* background-color: blueviolet; */
 }
 
