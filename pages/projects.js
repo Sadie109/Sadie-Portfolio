@@ -11,22 +11,24 @@ function projects() {
           <p>filler</p>
         </div>
         <div>
-          <img className={styles.ImgContainer} src="/image.jpg" />
+          <img className={styles.Img} src="/image.jpg" />
           <a>text</a>
           <a>text</a>
         </div>
       </div>
-
-      {/* <div className={styles.SecondInfoContainer}>
+         
+      <div className={styles.ProjectContainer}>
+      <div className={styles.ProjectInfoContainer}>
         <p>filler</p>
       </div>
-      <div className={styles.SecondImgContainer}>
-      <img/>
+      <div className={styles.ProjectImg}>
+        <img />
         <a>text</a>
         <a>text</a>
       </div>
+      </div>
 
-      <div className={styles.InfoContainer}>
+      {/* <div className={styles.InfoContainer}>
         <p>filler</p>
       </div>
       <div className={styles.ImgContainer}>

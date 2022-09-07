@@ -1,7 +1,8 @@
 .Title {
   display: flex;
-  top: 20px;
-  left: 100px;
+  position: absolute;
+  top: 70px;
+  left: 300px;
   font-size: 3em;
 }
 
@@ -15,20 +16,47 @@
 }
 
 .WorkContainer {
-    width: 50%;
-    height: 30%;
-    background-color: antiquewhite;
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  right: 150px;
+  top: 150px;
+  background-color: rgb(129, 81, 18);
 }
 
 .InfoContainer {
   background-color: aquamarine;
   display: flex;
-  position:absolute;
+  position: absolute;
+  right: 90%;
+  top: 25%;
   width: 500px;
   height: 150px;
 }
 
-.ImgContainer {
+.Img {
   background-color: bisque;
   width: 200px;
+}
+
+.ProjectContainer {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  left: 300px;
+  bottom: 150px;
+  background-color: rgb(31, 160, 31);
+}
+
+.ProjectInfoContainer {
+  background-color: rgb(33, 107, 204);
+  display: flex;
+  position: absolute;
+  left: 90%;
+  top: 25%;
+  width: 500px;
+  height: 150px;
+}
+
+.ProjectImg {
 }
