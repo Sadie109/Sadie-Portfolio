@@ -20,13 +20,12 @@ function projects() {
          
       <div className={styles.ProjectContainer}>
       <div className={styles.ProjectInfoContainer}>
-        <p>filler</p>
+      <p className={styles.par}>As my first team project, we came together to tackle a problem with burnout, mindfulness within bootcampers. During this project we maintained a positive, supportive atmosphere with clear communication for success within our group and app.</p>
       </div>
       <img className={styles.Img} src="/MindActivity.png" />
        
-        <a>text</a>
-        <a>text</a>
-      
+        <a style={{marginRight: 10}}  href="https://github.com/SchoolOfCode/w9_frontend-project-mindactivity">Github</a>
+       
       </div>
 
       
