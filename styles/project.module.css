@@ -25,13 +25,20 @@
 }
 
 .InfoContainer {
-  background-color: aquamarine;
+  background-color: rgb(171, 212, 199);
+  border: 3px solid black;
+  border-radius: 5px;
   display: flex;
   position: absolute;
   right: 90%;
   top: 25%;
   width: 500px;
   height: 150px;
+}
+
+.par {
+  width:100%;
+ padding: 10px;
 }
 
 .Img {
