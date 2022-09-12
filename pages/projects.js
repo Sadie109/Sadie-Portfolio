@@ -11,7 +11,7 @@ function projects() {
           <p>filler</p>
         </div>
         <div>
-          <img className={styles.Img} src="/image.jpg" />
+          <img className={styles.Img} src="/Saunter.png" />
           <a>text</a>
           <a>text</a>
         </div>
@@ -21,21 +21,14 @@ function projects() {
       <div className={styles.ProjectInfoContainer}>
         <p>filler</p>
       </div>
-      <div className={styles.ProjectImg}>
-        <img />
+      <img className={styles.Img} src="/MindActivity.png" />
+       
         <a>text</a>
         <a>text</a>
-      </div>
+      
       </div>
 
-      {/* <div className={styles.InfoContainer}>
-        <p>filler</p>
-      </div>
-      <div className={styles.ImgContainer}>
-      <img/>
-        <a>text</a>
-        <a>text</a>
-      </div> */}
+      
     </div>
   );
 }

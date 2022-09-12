@@ -35,8 +35,10 @@
 }
 
 .Img {
-  background-color: bisque;
-  width: 200px;
+  /* background-color: bisque; */
+  width: 100%;
+  border: 3px solid black;
+  border-radius: 5px;
 }
 
 .ProjectContainer {
@@ -59,4 +61,7 @@
 }
 
 .ProjectImg {
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 100%;
 }
