@@ -13,7 +13,7 @@ function projects() {
         </div>
         <div>
           <img className={styles.Img} src="/Saunter.png" />
-          <a style={{marginRight: 10}}  href="https://final-project-front-end-team-saunter.vercel.app/">Live</a> 
+          <a style={{marginRight: 10}} href="https://final-project-front-end-team-saunter.vercel.app/">Live</a> 
           <a href="https://github.com/SchoolOfCode/final-project_front-end-team-saunter">Github</a>
         </div>
       </div>
