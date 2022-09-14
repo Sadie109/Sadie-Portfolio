@@ -24,11 +24,11 @@
   position: absolute;
   right: 150px;
   top: 150px;
-  background-color: rgb(129, 81, 18);
+  /* background-color: rgb(129, 81, 18); */
 }
 
 .InfoContainer {
-  background-color: rgb(171, 212, 199);
+  /* background-color: rgb(171, 212, 199); */
   border: 3px solid black;
   border-radius: 5px;
   display: flex;
@@ -58,11 +58,11 @@
   position: absolute;
   left: 300px;
   bottom: 150px;
-  background-color: rgb(31, 160, 31);
+  /* background-color: rgb(31, 160, 31); */
 }
 
 .ProjectInfoContainer {
-  background-color: rgb(204, 33, 167);
+  /* background-color: rgb(204, 33, 167); */
   border: 3px solid black;
   border-radius: 5px;
   display: flex;

@@ -9,6 +9,7 @@
   font-family: "Titillium Web", sans-serif;
   color: rgb(185, 197, 206);
   z-index: 1;
+  width: 50%;
 }
 
 .Container {
@@ -61,4 +62,5 @@
   font-size: 2.5em;
   font-family: 'Titillium Web', sans-serif;
   color: rgb(185, 197, 206);
+  width: 50%;
 }
