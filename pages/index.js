@@ -16,9 +16,10 @@ export default function Home() {
           </p>
         </div>
       </div>
-      
-        <img className={styles.Photo} src="/image.jpg" style={{ width: 400 }} />
-      
+
+      <img className={styles.Photo} src="/image.jpg" style={{ width: 400 }} />
+
+      <img className={styles.BackGroundContainer} src="/background.jpg" />
     </div>
   );
 }
