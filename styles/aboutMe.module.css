@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+
 .Title {
   display: flex;
   top: 20px;
   left: 100px;
   font-size: 3em;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .Container {
@@ -28,6 +32,7 @@
 .Paragraph {
   font-size: 1.5em;
   margin-top: 80px;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .Skills {
