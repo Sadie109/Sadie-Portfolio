@@ -15,12 +15,11 @@
 .Container {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   margin-top: 300px;
   width: 60%;
   height: 60%;
 
-  /* background-color: blueviolet; */
+ 
 }
 .BackGroundContainer {
  position:absolute;
