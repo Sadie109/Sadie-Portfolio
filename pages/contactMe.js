@@ -4,6 +4,10 @@ import styles from "../styles/contactMe.module.css";
 function contactMe() {
   return (
     <div className={styles.ParentContainer}>
+     <img
+        className={styles.BackGroundContainer}
+        src="https://c1.wallpaperflare.com/preview/77/255/802/wood-ivy-green-leaves.jpg"
+      />
     <div className={styles.Container}>
       <div className={styles.Title}>
         <div>Contact Me</div>
@@ -16,7 +20,7 @@ function contactMe() {
       </div>
       <div className={styles.Photo}>
      <a href="https://github.com/Sadie109"> 
-     <img src="/Github.png" style={{ width: 70 }} />
+     <img src="/Github.png" style={{ width: 70, borderRadius:50 }} />
      </a>
      <a href="https://www.linkedin.com/in/sadie-goddard-227398237/"> 
      <img src="/Linkedin.png" style={{ width: 70 }} />

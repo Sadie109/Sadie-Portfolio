@@ -15,7 +15,7 @@ const Navbar = () => {
             <a>
               {" "}
               <img
-                src="/img.jpg"
+                src="https://ca.slack-edge.com/T039PHS2UKU-U03B0L1A4RY-8371bfcc28da-72"
                 style={{ borderRadius: 100, width: 100, height: 100 }}
               />
             </a>
