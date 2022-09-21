@@ -27,7 +27,7 @@ function aboutMe() {
           </div>
           <p>Tech i have used:</p>
           <div className={styles.PhotoTwo}>
-            <img src="/Github.png" style={{ width: 70,  height: 70 }} />
+            <img src="/Github.png" style={{ width: 70,  height: 70, borderRadius:50 }} />
             <img src="/React-icon.png" style={{ width: 70,  height: 70}} />
             <img src="/Next.png" style={{ width: 70,  height: 70 }} />
             <img src="/Node.png" style={{ width: 70,  height: 70 }} />
@@ -38,7 +38,7 @@ function aboutMe() {
       </div>
       <img
         className={styles.BackGroundContainer}
-        src="https://i.pinimg.com/736x/6a/63/70/6a637067bb6ab64fcdacc37e8da379c7.jpg"
+        src="https://c1.wallpaperflare.com/preview/77/255/802/wood-ivy-green-leaves.jpg"
       />
     </div>
   );
