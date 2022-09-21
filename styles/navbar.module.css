@@ -9,11 +9,13 @@
   border-bottom: 1px solid #ddd;
   z-index: 1;
   position: fixed;
-  background-color: #f8f5ef;
+  background-color: #fffefe;
   height: 100vh;
-  width: 7vw;
+  width: 125px;
   box-sizing: content-box;
   z-index: 1;
+  border-radius: 10px;
+  opacity: .8;
 }
 
 .Links {
@@ -22,10 +24,14 @@
   justify-content: space-evenly;
   height: 100vh;
   text-align: center;
+  
 }
 
 .Links :hover {
-  color: blue;
+  color: #f8f5ef;
+  background-color: rgb(4, 17, 75);
+  border-radius: 8px;
+  transition: 200ms;
 }
 
 .HamburgerIcon {
@@ -61,15 +67,14 @@
 }
 
 .MenuOpen {
-    /* visibility: visible; */
-    width: 85%;
-    transition: 300ms;
-    
+  /* visibility: visible; */
+  width: 85%;
+  transition: 300ms;
 }
 
 .MenuDimOpen {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 @media (max-width: 40rem) {
@@ -81,7 +86,6 @@
 
   .Links {
     display: none;
-    
   }
 
   .HamburgerIcon {

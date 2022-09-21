@@ -18,22 +18,18 @@
   margin-top: 300px;
   width: 60%;
   height: 60%;
-
- 
 }
 .BackGroundContainer {
- position:absolute;
- z-index: 0;
- opacity: .2;
- height: 100%;
- width:100%;
- top: 0;
- left:0;
- 
+  position: absolute;
+  z-index: 0;
+  opacity: 0.2;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .ParentContainer {
-
   align-items: center;
   display: flex;
   justify-content: center;
@@ -46,7 +42,7 @@
   background-color: black;
   width: 40%;
   z-index: 1;
-  border: 3px rgb(185, 197, 206)solid;
+  border: 3px rgb(185, 197, 206) solid;
   border-radius: 10px;
   display: flex;
   justify-content: flex-end;
@@ -59,7 +55,7 @@
   z-index: 1;
   margin-top: 50px;
   font-size: 2.5em;
-  font-family: 'Titillium Web', sans-serif;
-  color:  rgb(185, 197, 206);
+  font-family: "Titillium Web", sans-serif;
+  color: rgb(185, 197, 206);
   width: 50%;
 }

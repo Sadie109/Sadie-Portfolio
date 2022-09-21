@@ -11,7 +11,7 @@ export default function Home() {
         </div>
         <div className={styles.Paragraph}>
           <p>
-            Junior FullStack Developer, with a passion for <br />
+            Junior FullStack Developer, with a passion for 
             learning back-end and design.
           </p>
         </div>

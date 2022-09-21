@@ -36,6 +36,10 @@ function aboutMe() {
           </div>
         </div>
       </div>
+      <img
+        className={styles.BackGroundContainer}
+        src="https://i.pinimg.com/736x/6a/63/70/6a637067bb6ab64fcdacc37e8da379c7.jpg"
+      />
     </div>
   );
 }
