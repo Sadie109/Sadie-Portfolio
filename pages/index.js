@@ -19,7 +19,10 @@ export default function Home() {
 
       <img className={styles.Photo} src="/image.jpg" style={{ width: 400 }} />
 
-      <img className={styles.BackGroundContainer} src="/background.jpg" />
+      <img
+        className={styles.BackGroundContainer}
+        src="https://c0.wallpaperflare.com/preview/428/158/321/background-coffee-computer-connection.jpg"
+      />
     </div>
   );
 }
